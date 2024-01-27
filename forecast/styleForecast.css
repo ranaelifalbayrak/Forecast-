@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-image:url("sky.jpg");
+    background-size: cover;
+}
+.card{
+    background:rgb(248, 248, 255,.8);
+    padding: 2em;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    margin:2em
+}
+#search{
+    margin:1em;
+    border-radius:50%;
+    border:none;
+    background-color: rgb(248, 248, 255);
+    padding: 1em;
+    width: 50px;
+    height:50px
+}
+#input{
+    border:none;
+    font-size: 120%;
+    border-radius: 18px;
+}
+#error{
+    color:red;
+    margin-left: 5em;
+}
